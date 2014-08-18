@@ -1,0 +1,32 @@
+{
+    "name": "angular-starter",
+    "version": "1.0.0",
+    "description": "An angular starter project based on gulp, requirejs, karma, jasmine, protractor, and separation of code by module.",
+    "main": "index.html",
+    "scripts": {
+        "test": "gulp tdd"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/davidjnelson/angular-starter"
+    },
+    "author": "David Nelson <david.jonathan.nelson@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/davidjnelson/angular-starter/issues"
+    },
+    "homepage": "https://github.com/davidjnelson/angular-starter",
+    "devDependencies": {
+        "express": "^4.6.1",
+        "gulp": "^3.8.5",
+        "gulp-connect": "^2.0.5",
+        "gulp-shell": "^0.2.9",
+        "karma": "^0.12.21",
+        "karma-chrome-launcher": "^0.1.4",
+        "karma-jasmine": "^0.1.5",
+        "karma-requirejs": "^0.2.2",
+        "lodash": "^2.4.1",
+        "protractor": "^1.0.0",
+        "requirejs": "^2.1.14"
+    }
+}
