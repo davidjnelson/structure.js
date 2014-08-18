@@ -11,7 +11,7 @@ var karmaCommonConf = {
         'specs/unit/spec-main.js',
         {pattern: 'src/bower_components/**/*.js', included: false},
         {pattern: 'specs/test-data/**/*.*', included: false},
-        {pattern: 'src/javascript/**/*.js', included: false},
+        {pattern: 'src/javascript/**/*.*', included: false},
         {pattern: 'specs/unit/**/*Spec.js', included: false}
     ],
 
@@ -53,12 +53,12 @@ gulp.task('connect', function() {
 });
 
 gulp.task('source', function() {
-    gulp.src(['src/**/*.*', '!src/pages/**/*.*'])
+    gulp.src(['src/**/*.*'])
         .pipe(connect.reload());
 });
 
 gulp.task('watch', function() {
-    gulp.watch(['src/**/*.*', '!src/pages/**/*.*'], ['source']);
+    gulp.watch(['src/**/*.*'], ['source']);
 });
 
 gulp.task('default', ['connect', 'watch']);
