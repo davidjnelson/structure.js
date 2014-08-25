@@ -1,13 +1,11 @@
-angular-starter
-===============
+structure.js
+============
 
-An angular starter project based on gulp, requirejs, karma, jasmine, protractor, and separation of code by module.
+Common data structures and algorithms written in object oriented javascript using test driven development (tdd).  Uses AMD for modules.
 
 ```bash
-git clone https://github.com/davidjnelson/angular-starter/angular-starter.git
+git clone https://github.com/davidjnelson/structure.js/structure.js.git
 npm install
 bower install
-webdriver-manager start
-gulp protractor-watch
 gulp tdd
 ```
